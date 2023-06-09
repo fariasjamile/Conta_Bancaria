@@ -1,6 +1,7 @@
 package conta;
 
 import java.io.IOException;
+import java.lang.ModuleLayer.Controller;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -18,7 +19,7 @@ public class Menu {
 		String titular;
 		float saldo, limite, valor;
 		
-		ContaController contas = new ContaController();
+		Controller contas = new Controller();
 		
 		while (true) {
 
